@@ -1,10 +1,10 @@
  body {
 	text-align: center;
 	font-family: helvetica;
-
+	background-size: 1400px;
 }
 a {
-	color: orange;
+	color: gray;
 	text-decoration: none;
 }
 
@@ -23,4 +23,8 @@ img {
 	border-radius: 20px;
 	max-width: 100%;
 	height: auto;
+}
+
+.active {
+	color:orange;
 }
