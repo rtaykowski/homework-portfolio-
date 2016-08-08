@@ -3,6 +3,7 @@
 	font-family: helvetica;
 	background: url("http://i.imgur.com/P0QJMXK.jpg");
 }
+
 a {
 	color: gray;
 	text-decoration: none;
@@ -10,13 +11,13 @@ a {
 
 ul {
 	margin: 0px;
-	padding: 15px;
-	background: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #f9f9f9;
 }
 
 li{
-	display: inline;
-	padding: 0px 10px 0px 10px;
+	display: inline
 }
 
 img {
@@ -30,7 +31,6 @@ img {
 }
 
 p {
-	text-align: center;
 	padding: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -40,4 +40,27 @@ p {
 
 #header1 {
 	font-size: 40px;
+}
+
+footer div {
+	display: inline;
+	padding: 0px 10px;
+}
+
+footer {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+
+ul li a:hover {
+	color: orange;
+}
+
+.firstlink {
+	padding-right:15px;
+}
+
+.secondlink {
+	padding-left: 15px;
 }
